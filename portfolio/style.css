@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #29a6dc;
+    background-image: url(img/photo1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 800px;
+    color: white;
+    font-family: "Saira Condensed", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    position: relative;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 120px;
+}
+
+h2.bold {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h2.reg {
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+header div button {
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    height: 90px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    background-color: inherit;
+}
+
+header div button:hover {
+    color: #111;
+    background-color: white;
+}
+
+header div.header {
+    position: absolute;
+    top: 150px;
+    left: 105px;
+}
