@@ -34,7 +34,6 @@ h2.reg {
     margin-bottom: 40px;
     position: relative;
     bottom: 20px;
-
 }
 
 header div button {
@@ -60,4 +59,52 @@ header div.header {
     position: absolute;
     top: 150px;
     left: 105px;
+}
+
+article {
+    font-family: "Saira Condensed", sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+article h2 {
+    text-align: center;
+    margin: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+article section {
+    width: 26%;
+    float: left;
+    padding: 30px;
+    margin: 20px;
+}
+
+article section img {
+    width: 375px;
+    height: 225px;
+    margin-bottom: 30px;
+}
+
+article section:nth-child(1) {
+    margin-left: 85px;
+}
+
+article section:nth-child(3) {
+    margin-right: 85px;
+}
+
+article section h3 {
+    font-weight: 700;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+article section p {
+    font-weight: 300;
+    font-size: 21px;
 }
