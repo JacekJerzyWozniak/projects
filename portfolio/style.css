@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: "Saira Condensed", sans-serif;
+    font-style: normal;
 }
 
 header {
@@ -12,9 +15,6 @@ header {
     background-size: contain;
     height: 800px;
     color: white;
-    font-family: "Saira Condensed", sans-serif;
-    font-style: normal;
-    text-transform: uppercase;
     position: relative;
 }
 
@@ -42,7 +42,6 @@ header div button {
     font-style: normal;
     height: 90px;
     border: 1px solid white;
-    text-transform: uppercase;
     font-size: 40px;
     color: white;
     letter-spacing: 2px;
@@ -61,17 +60,20 @@ header div.header {
     left: 105px;
 }
 
-article {
+header article {
     font-family: "Saira Condensed", sans-serif;
     font-style: normal;
     text-align: center;
     margin-bottom: 60px;
 }
 
+
+
+
+/* ARTICLE */
 article h2 {
     text-align: center;
     margin: 40px;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 60px;
 }
@@ -83,6 +85,12 @@ article section {
     margin: 20px;
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 article section img {
     width: 375px;
     height: 225px;
@@ -90,21 +98,73 @@ article section img {
 }
 
 article section:nth-child(1) {
-    margin-left: 85px;
-}
-
-article section:nth-child(3) {
-    margin-right: 85px;
+    margin-left: 105px;
 }
 
 article section h3 {
     font-weight: 700;
     font-size: 27px;
-    text-transform: uppercase;
     margin-bottom: 25px;
 }
 
 article section p {
     font-weight: 300;
     font-size: 21px;
+}
+
+
+
+
+
+/* MAIN */
+main {
+    background-color: #1e1e1e;
+    color: white;
+    padding-bottom: 30px;
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+}
+
+main article {
+    width: 1000px;
+    height: 282px;
+    margin: 0 auto 40px;
+}
+
+main article div {
+    width: 50%;
+    float: left;
+}
+
+main article img {
+    width: 100%;
+}
+
+.orange {
+    background-color: #ff4f2c;
+    height: 282px;
+}
+
+.blue {
+    background-color: #0170ba;
+    height: 282px;
+}
+
+main article div h3 {
+    margin: 20px 20px;
+    font-weight: 400;
+    font-size: 36px;
+    border-bottom: 1px solid white;
+}
+
+main article div p {
+    padding: 10px;
+    font-size: 18px;
+    width: 85%;
+    margin: 0 auto;
 }
